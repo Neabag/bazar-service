@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "canned -p 80 ./server"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "node-sass": "^5.0.0"
   },
-   "engines": {
+  "engines": {
     "node": "14.15.1"
   }
 }
